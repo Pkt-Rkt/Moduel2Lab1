@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning HTML tags and elements">
+    <meta name="keywords" content="HTML, web development, tags, elements">
+    <meta name="author" content="Daniel Hiscock">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my HTML lab </title>
+    <style>
+        table, th, td {
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="./">Home</a>
+        <a href="./form">Form</a>
+    </nav>
+    <h1>My HTML Lab</h1>
+    <article>
+      <h2>Using elements such as - div, span, p, pre, ul, li, ol, and article.</h2>
+        <div>Honda</div>
+        <div>Porsche</div>
+        <div>Mazda</div>
+        <span>Del Sol,</span>
+        <span>Cayenne,</span>
+        <span>RX7.</span>
+        <p>
+            p represents paragraph
+        </p>
+        <pre>
+            Text in         a pre element
+            is displayed in a fixed-width
+            font, and it preserves
+            both      spaces and
+            line breaks
+        </pre>
+        <ul>
+            <li>Oil</li>
+            <li>Filter</li>
+            <li>Oil catcher</li>
+        </ul>
+        <ol>
+            <li>Drain the oil.</li>
+            <li>Replace the filter.</li>
+            <li>Refill with new oil.</li>
+        </ol>
+    </article>
+    <article>
+        <h2>Learning Elements - Tables</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">First header</th>
+                    <th>Second header</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">First cell - first row</td>
+                    <td>Second cell - first row</td>
+                    <td>Third cell - first row</td>
+                </tr>
+                <tr>
+                    <td>Second cell - second row</td>
+                    <td>Second cell - third row</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">First cell - fourth row</td>
+                    <td>Second cell - fourth row</td>
+                    <td>Third cell - fourth row</td>
+                </tr>
+                <tr>
+                    <td>Second cell - fifth row</td>
+                    <td>Third cell - fifth row</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+    <img src="https://picsum.photos/200/300" alt="" />
+    <video width="250" controls>
+        <source src="assets\flower.webm" type="video/webm">
+        <source src="assets\flower.mp4" type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+    <audio controls src="assets\t-rex-roar.mp3">
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+</body>
+</html>
